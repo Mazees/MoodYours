@@ -2,15 +2,13 @@ import { useState } from 'react'
 import Sidebar from '../Components/Sidebar.jsx'
 import Header from '../Components/Header.jsx'
 import Modal from '../Components/Modal.jsx'
+import MainLayout from "../Components/MainLayout.jsx";
 
 function About() {
   return (
-    <>
-    <Header />
-    <Sidebar>
-        <button>Test2</button>
-    </Sidebar>
-    </>
+    <MainLayout>
+      About
+    </MainLayout>
   )
 }
 export default About;

@@ -1,6 +1,6 @@
-# YourMoody 🧠🎭
+# MOODYOURS 🧠🎭
 
-**YourMoody** adalah aplikasi pencatat mood harian berbasis React. Aplikasi ini dirancang untuk membantu pengguna merefleksi suasana hati mereka melalui emoji dan catatan singkat setiap hari. Dengan antarmuka yang bersih dan interaktif, pengguna dapat melacak emosi mereka dari hari ke hari, serta melihat riwayat mood secara visual.
+**MOODYOURS** adalah aplikasi pencatat mood harian berbasis React. Aplikasi ini dirancang untuk membantu pengguna merefleksi suasana hati mereka melalui emoji dan catatan singkat setiap hari. Dengan antarmuka yang bersih dan interaktif, pengguna dapat melacak emosi mereka dari hari ke hari, serta melihat riwayat mood secara visual.
 
 ---
 
@@ -11,7 +11,7 @@ Mada Putra
 Inovasi
 
 ## 📌 Deskripsi Singkat Proyek
-YourMoody adalah aplikasi pencatat mood harian berbasis React. Pengguna dapat memilih emoji yang mewakili suasana hati mereka setiap hari dan menambahkan catatan singkat. Aplikasi ini membantu pengguna merefleksi emosinya selama seminggu secara visual dan personal.
+MOODYOURS adalah aplikasi pencatat mood harian berbasis React. Pengguna dapat memilih emoji yang mewakili suasana hati mereka setiap hari dan menambahkan catatan singkat. Aplikasi ini membantu pengguna merefleksi emosinya selama seminggu secara visual dan personal.
 
 ---
 
@@ -39,3 +39,4 @@ YourMoody adalah aplikasi pencatat mood harian berbasis React. Pengguna dapat me
   Semua data akan disimpan di penyimpanan lokal (localStorage) agar datamu tetap aman di perangkatmu.
 
 ## ⚠️ MASIH DALAM TAHAP PENGEMBANGAN
+
