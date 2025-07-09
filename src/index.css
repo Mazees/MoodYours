@@ -1,52 +1,169 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
-@theme{
-    --color-brown-primary: #5c3e3e;
-    --color-brown-secondary: #784a4a;
-    --color-brown-tertiary: #bd8e8e;
+@theme {
+  --color-brown-primary: #5c3e3e;
+  --color-brown-secondary: #784a4a;
+  --color-brown-tertiary: #bd8e8e;
+  --color-brown-quaternary: #fad4d4;
 }
+
+@custom-variant hover (&:hover);
+@custom-variant focus (&:focus);
 
 @layer components {
-  .salsa-regular {
-  font-family: "Salsa", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
+  rect:focus {
+    outline: auto;
+  }
+  .recharts-surface:focus {
+    outline: none;
+  }
+  .recharts-layer:focus {
+    outline: none;
+    border: none;
+  }
 
-.animate-rotate {
-  animation: rotate 1.2s ease-in-out infinite;
-}
+  .poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  .animate-rotate {
+    animation: rotate 1.2s ease-in-out infinite;
+  }
 }
 
 @keyframes rotate {
-	0%,
-	100% {
-		transform: rotate(0deg);
-		transform-origin: 50% 50%;
-	}
+  0%,
+  100% {
+    transform: rotate(0deg);
+    transform-origin: 50% 50%;
+  }
 
-	10% {
-		transform: rotate(8deg);
-	}
+  10% {
+    transform: rotate(8deg);
+  }
 
-	20%,
-	40%,
-	60% {
-		transform: rotate(-10deg);
-	}
+  20%,
+  40%,
+  60% {
+    transform: rotate(-10deg);
+  }
 
-	30%,
-	50%,
-	70% {
-		transform: rotate(10deg);
-	}
+  30%,
+  50%,
+  70% {
+    transform: rotate(10deg);
+  }
 
-	80% {
-		transform: rotate(-8deg);
-	}
+  80% {
+    transform: rotate(-8deg);
+  }
 
-	90% {
-		transform: rotate(8deg);
-	}
+  90% {
+    transform: rotate(8deg);
+  }
 }

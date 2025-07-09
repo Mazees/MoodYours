@@ -13,6 +13,9 @@ Inovasi
 ## 📌 Deskripsi Singkat Proyek
 MOODYOURS adalah aplikasi pencatat mood harian berbasis React. Pengguna dapat memilih emoji yang mewakili suasana hati mereka setiap hari dan menambahkan catatan singkat. Aplikasi ini membantu pengguna merefleksi emosinya selama seminggu secara visual dan personal.
 
+## ✈️ DEMO - Try Apps
+[Live Demo on Netlify](https://moodyours.netlify.app/)
+
 ---
 
 ## ✨ Fitur Aplikasi
@@ -23,11 +26,14 @@ MOODYOURS adalah aplikasi pencatat mood harian berbasis React. Pengguna dapat me
 - 📝 **Menulis Catatan Pendek**  
   Tambahkan cerita singkat atau alasan di balik mood-mu hari ini.
 
-- 🪟 **Bot Komentar Dengan Pop-Up Modal**  
+- 🪟 **Bot Komentar Unik**  
   User akan mendapatkan pesan-pesan dan saran unik dari bot.
 
 - 📆 **Statistik Mood**  
   Lihat daftar mood yang sudah kamu catat selama 1 bulan.
+
+- ℹ️ **Artikel Informasi**
+  User dapat membaca tentang berbagai macam mood beserta penjelasannya.
 
 - 🧭 **Navigasi Sederhana**  
   Aplikasi ini memiliki navigasi yang mudah digunakan untuk berpindah antar bagian (seperti beranda, tentang aplikasi, dll).
@@ -38,5 +44,8 @@ MOODYOURS adalah aplikasi pencatat mood harian berbasis React. Pengguna dapat me
 - 🔒 **Privasi Terjaga**  
   Semua data akan disimpan di penyimpanan lokal (localStorage) agar datamu tetap aman di perangkatmu.
 
-## ⚠️ MASIH DALAM TAHAP PENGEMBANGAN
+To run the MoodYours locally on your machine:
 
+1. **Clone the repository**:
+   ```bash
+   https://github.com/Mazees/MoodYours.git
