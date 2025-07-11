@@ -48,4 +48,4 @@ To run the MoodYours locally on your machine:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/Mazees/PomodoroKun---Pomodoro-Timer-JavaScript.git
+   git clone https://github.com/Mazees/MoodYours.git
